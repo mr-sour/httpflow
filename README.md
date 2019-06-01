@@ -25,6 +25,10 @@ yum install libpcap-devel zlib-devel pcre-devel
 ## On Ubuntu / Debian
 apt-get update
 apt-get install libpcap-dev zlib1g-dev libpcre3 libpcre3-dev
+
+## On Clear linux
+#total over kill but it works
+sudo swupd bundle-add os-clr-on-clr-dev
 ```
 
 * Building httpflow
